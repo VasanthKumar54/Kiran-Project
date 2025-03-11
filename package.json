@@ -1,4 +1,8 @@
 {
+
+  "homepage": "https://github.com/Kiran227711/test",
+
+
   "name": "zyzk",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +12,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "start": "react-scripts start",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
